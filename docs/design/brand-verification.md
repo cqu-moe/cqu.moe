@@ -14,3 +14,7 @@
 详细数据见 [brand-verification.json](brand-verification.json)，截图在 [screenshots](screenshots/)。本轮未验证真实手机、Safari、Firefox 或各子系统账号业务。
 
 GitHub CI、Cloudflare 构建、生产资源读回均为独立验收层，发布后单独报告。
+
+## 远端预览修复
+
+首轮 GitHub CI 通过，Cloudflare 的页面构建也通过，但现有分支部署命令 `wrangler preview` 因缺少 `previews` 块失败。补齐空配置块后沿用 Git Connector 重跑；无新增业务绑定，生产路由不变。此失败与图标路径或静态构建无关。

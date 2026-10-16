@@ -34,3 +34,9 @@ Vite 构建客户端主题控件和构建期渲染入口，scripts/prerender.mjs
 ## 回退
 
 首选 revert 引入问题的 main 提交，让 Git Connector 发布可追溯的回退。紧急情况下从 Cloudflare 部署历史回退至已验证版本，再同步 Git 代码，避免下一次 main 构建覆盖回退。
+
+## 分支预览配置 · 2026-10-16
+
+当前 Git Connector 的非生产部署命令为 `pnpm exec wrangler preview`。项目 Wrangler 4.151.0 要求显式声明 `previews`，因此配置保留空的 `"previews": {}`；本站没有业务 bindings，静态 assets 与兼容性设置继续位于顶层。生产分支仍运行 `wrangler deploy`，cqu.moe 的生产路由不绑定到 Preview。
+
+首次品牌分支构建成功，但 Preview 部署因缺少此块失败（build a32ae957）；按错误提示与安装版 schema 补齐后重跑。参考 [Cloudflare Preview 配置](https://developers.cloudflare.com/workers/previews/configuration/#wrangler-configuration-file)。
