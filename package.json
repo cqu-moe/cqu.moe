@@ -1,0 +1,35 @@
+{
+  "name": "cqu-moe-homepage",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5174",
+    "build": "tsc --noEmit && vite build && vite build --ssr src/render.tsx --outDir .ssr && node scripts/prerender.mjs",
+    "check:design": "node node_modules/@cqu-moe/ui/dist/check-design.mjs src",
+    "preview": "vite preview --host 127.0.0.1 --port 5174 --strictPort",
+    "check": "pnpm check:design && pnpm build",
+    "deploy": "pnpm build && wrangler deploy"
+  },
+  "dependencies": {
+    "@cqu-moe/theme": "file:./.design/cqu-moe-theme-1.1.0.tgz",
+    "@cqu-moe/ui": "file:./.design/cqu-moe-ui-1.1.0.tgz",
+    "lucide-react": "1.48.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.3",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.1",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3",
+    "vite": "8.3.1",
+    "wrangler": "^4.151.0"
+  },
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
