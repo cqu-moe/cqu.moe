@@ -1,22 +1,28 @@
 # CQU Moe 首页
 
-这是面向访问者的公开服务导航。先阅读 README.md、GLOSSARY.md 与 docs/design/homepage.md。
+面向访问者的公开服务导航。先读 README.md、GLOSSARY.md 与 docs/design/homepage.md。
 
-- 非微小修改在隔离 Git worktree 中进行。
-- 原型在 prototypes/homepage/。未经用户选择，不将某一设计方向作为最终首页发布。
-- 使用 CQU Moe Design；原型目录的 AGENTS.md 提供消费规则。不要重新实现基础控件或覆盖 .ds-* 内部样式。
-- 公开首页采用独立品牌顶栏，复用 ContentContainer 等公开组件；不强套带业务侧栏的 AppShell。
-- 服务名称、URL、访问条件必须有来源。内测与运行健康状态是不同概念，不伪造在线状态或用量数字。
-- 产品 Logo 使用设计仓库原始素材并保留来源与校验值；不使用普通图标替代。Learning CLI 暂无标识，按已确认决策仅显示文字。
-- 提交前检查 Git 有效 user.name/user.email 并原样使用。
-- 构建、设计检查、浏览器交互、外部服务可用性、正式部署分别报告。
+- 非微小修改在隔离 Git worktree 中进行；不在用户主分支直接开发。
+- 已选定 Direct 布局。src/homepage.tsx 是正式首页；不要恢复原型选择器或未选方向。
+- 服务名称、URL、访问条件必须有来源。内测不等于运行健康状态，不伪造在线状态或用量。
+- 使用设计仓库原始产品 Logo，保留 public/brand/manifest.json 的来源和校验值；Learning CLI 仅显示文字。
+- 修改导航需检查无需脚本仍能进入服务；首页不读取个人课表、未读数或账号数据。
+- 提交前检查有效 Git user.name/user.email 并原样使用。
+- GitHub CI、Cloudflare Git Connector 构建、生产响应和子系统账号业务分别报告。
 
-## Agent skills
+## CQU Moe Design
 
-### Issue tracker
+依赖安装后，先读 node_modules/@cqu-moe/ui/dist/START-HERE.md、DESIGN.md、docs/agent-start.md 和 docs/consumption.md。公开 API 以 dist/index.d.ts 为准；具体规则按页面读取 docs/ 下的布局、组件、图标、动效与验收说明。
 
-使用 cqu-moe/cqu.moe 的 GitHub Issues；见 docs/agents/issue-tracker.md。
+- 组件只从 @cqu-moe/ui 导入，图标来自 lucide-react；不复制基础控件、不覆盖 .ds-* 内部样式、不导入包内部源码。
+- 公开首页使用独立品牌顶栏和共享 ContentContainer，不强套业务侧栏 AppShell。
+- ThemeProvider 不支持 SSR。src/render.tsx 只渲染静态页面；src/main.tsx 在 appearance 中挂载唯一 ThemeProvider、ThemeMenu、Toaster。
+- 共享主题首帧脚本由 Vite 注入；构建脚本生成对应 CSP hash。不增加任意 inline script 放行。
+- 使用语义变量、共享字体和间距，保持双主题、手机、键盘、减少动态效果和无脚本可读。
+- 交付前运行 pnpm check、Wrangler dry run，并检查实际构建产物的 390/768/1440 双主题和 320 重排。编译通过不能代替视觉验证。
+- 共享设计缺口按包内 docs/feedback-contract.md 记录，不在消费项目分叉控件。
+- .design/*.tgz、锁文件与 pnpm-workspace.yaml 必须随代码提交。
 
-### Domain docs
+## 协作资料
 
-单一领域，术语在根目录 GLOSSARY.md；ADR 按需要创建。见 docs/agents/domain.md。
+GitHub Issues：docs/agents/issue-tracker.md。领域术语和决策：docs/agents/domain.md。生产通过 Cloudflare Git Connector 跟踪 main，配置见 docs/deployment.md。

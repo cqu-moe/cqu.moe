@@ -27,7 +27,7 @@
 
 ### 品牌素材
 
-四枚 Logo 均逐字节复制自公开设计仓库的 `assets/brand/path-family/`，本地文件与 SHA-256 记录在 `prototypes/homepage/public/brand/manifest.json`。没有重绘、滤镜、拉伸或附加背景。
+四枚 Logo 均逐字节复制自公开设计仓库的 `assets/brand/path-family/`，本地文件与 SHA-256 记录在 `public/brand/manifest.json`。没有重绘、滤镜、拉伸或附加背景。
 
 - Schedule、Feed、Auth：浅色使用 `logo-black.svg`，深色使用 `logo-white.svg`。
 - QuickLogin：使用彩色 `logo.svg` / `logo-dark.svg`。
@@ -42,7 +42,7 @@
 
 三个方向使用相同真实清单与链接。每个版本都可打开服务、切换主题；索引版包含空结果恢复。选择器支持数字键、方向键与 URL 持久化。
 
-## 设计边界
+## 原型阶段设计边界
 
 - 这是公开内容入口，使用独立顶栏与共享 ContentContainer，避免套用后台侧栏外壳；没有覆盖 .ds-* 内部选择器。
 - 选择器 CSS 按 emil-prototype/PICKER.md 原样保留。其固定深色、28px 按钮及高层级属于开发比较工具的明确例外，不作为正式首页控件。正式页面仍遵守触屏尺寸与共享主题。
@@ -51,6 +51,16 @@
 
 ## 决策
 
-尚未选定。用户选择后在这里记录选中方向、必要调整与未选方向的原因，再整合正式首页。
+2026-10-16：用户选择 **Direct · 常用直达**，授权继续整合正式首页。
+
+- 保留课表与通知优先的双卡片布局，QuickLogin 和 Learning CLI 位于下方并标注内测。
+- 保留现有文案、四枚原版 Logo、双主题与公开导航边界；Learning CLI 只显示文字。
+- Scenes 未选用：同一组入口需要更多解释与滚动，当前首要任务是快速进入服务。
+- Index 未选用：四项服务暂不需要搜索与分类，直接展示即可。
+- 正式实现删除选择器、键盘切换、未选方向及其专属样式；页面构建为静态 HTML，主题控件保留客户端边界。
 
 本地构建、交互和视觉验收见 [verification.md](verification.md)。
+
+## 正式实现
+
+页面已迁入仓库根目录，原型目录和选择器已移除。正文在构建时生成静态 HTML，仅主题菜单在客户端挂载；遵守共享 ThemeProvider 的客户端边界。构建产物含 SEO 元信息、robots、sitemap、自定义 404 与响应头。favicon 使用现有 CQU 文字品牌，不借用某一子系统标识。

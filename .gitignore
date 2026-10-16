@@ -7,3 +7,8 @@ dist/
 .worktrees/
 test-results/
 playwright-report/
+
+.ssr/
+.wrangler/
+.dev.vars
+.dev.vars.*
