@@ -34,3 +34,4 @@ Cloudflare Git Connector 跟踪 `main`，构建命令 `pnpm build`，部署命�
 - [术语表](GLOSSARY.md)
 - [首页范围与设计决策](docs/design/homepage.md)
 - [原型阶段验收](docs/design/verification.md)
+- [正式首页本地验收](docs/design/production-verification.md)
