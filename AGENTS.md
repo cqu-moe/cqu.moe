@@ -5,7 +5,7 @@
 - 非微小修改在隔离 Git worktree 中进行；不在用户主分支直接开发。
 - 已选定 Direct 布局。src/homepage.tsx 是正式首页；不要恢复原型选择器或未选方向。
 - 服务名称、URL、访问条件必须有来源。内测不等于运行健康状态，不伪造在线状态或用量。
-- 使用设计仓库原始产品 Logo，保留 public/brand/manifest.json 的来源和校验值；Learning CLI 仅显示文字。
+- 使用设计仓库原始品牌素材，包括 CQU Moe 折叠立方和 Learning CLI 书页标识；保留 public/brand/manifest.json 的来源和校验值。
 - 修改导航需检查无需脚本仍能进入服务；首页不读取个人课表、未读数或账号数据。
 - 提交前检查有效 Git user.name/user.email 并原样使用。
 - GitHub CI、Cloudflare Git Connector 构建、生产响应和子系统账号业务分别报告。

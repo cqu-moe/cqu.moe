@@ -9,7 +9,10 @@ export function Frame({ children }: { children: ReactNode }) {
       <a className="skip-link" href="#main-content">跳至正文</a>
       <header className="site-header">
         <div className="page-width header-line">
-          <a className="wordmark" href="/" aria-label="CQU Moe 首页">CQU<span>Moe.</span></a>
+          <a className="wordmark" href="/" aria-label="CQU Moe 首页">
+            <ServiceMark brand="cqu-moe" />
+            <span className="wordmark-name">CQU<span>Moe.</span></span>
+          </a>
           <div className="header-actions">
             <Button asChild variant="ghost">
               <a href="https://auth.cqu.moe">
@@ -50,7 +53,7 @@ export function TextLink({ service }: { service: Service }) {
   );
 }
 
-export function ServiceMark({ brand, size = 32 }: { brand: ServiceBrand | 'auth' | null; size?: 24 | 32 }) {
+export function ServiceMark({ brand, size = 32 }: { brand: ServiceBrand | 'auth' | 'cqu-moe' | null; size?: 24 | 32 }) {
   const light = brand === 'quicklogin' ? 'logo.svg' : 'logo-black.svg';
   const dark = brand === 'quicklogin' ? 'logo-dark.svg' : 'logo-white.svg';
   return (

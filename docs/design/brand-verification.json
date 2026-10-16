@@ -1,0 +1,274 @@
+{
+  "results": [
+    {
+      "theme": "light",
+      "width": 320,
+      "overflow": false,
+      "loaded": true,
+      "visibleBrands": [
+        "/brand/cqu-moe/logo-black.svg",
+        "/brand/schedule/logo-black.svg",
+        "/brand/feed/logo-black.svg",
+        "/brand/quicklogin/logo.svg",
+        "/brand/learning/logo-black.svg"
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "https://auth.cqu.moe",
+        "https://schedule.cqu.moe",
+        "https://feed.cqu.moe",
+        "https://quicklogin.cqu.moe",
+        "https://github.com/cqu-moe/learning",
+        "https://github.com/cqu-moe/design",
+        "https://github.com/cqu-moe"
+      ]
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "overflow": false,
+      "loaded": true,
+      "visibleBrands": [
+        "/brand/cqu-moe/logo-black.svg",
+        "/brand/auth/logo-black.svg",
+        "/brand/schedule/logo-black.svg",
+        "/brand/feed/logo-black.svg",
+        "/brand/quicklogin/logo.svg",
+        "/brand/learning/logo-black.svg"
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "https://auth.cqu.moe",
+        "https://schedule.cqu.moe",
+        "https://feed.cqu.moe",
+        "https://quicklogin.cqu.moe",
+        "https://github.com/cqu-moe/learning",
+        "https://github.com/cqu-moe/design",
+        "https://github.com/cqu-moe"
+      ]
+    },
+    {
+      "theme": "light",
+      "width": 768,
+      "overflow": false,
+      "loaded": true,
+      "visibleBrands": [
+        "/brand/cqu-moe/logo-black.svg",
+        "/brand/auth/logo-black.svg",
+        "/brand/schedule/logo-black.svg",
+        "/brand/feed/logo-black.svg",
+        "/brand/quicklogin/logo.svg",
+        "/brand/learning/logo-black.svg"
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "https://auth.cqu.moe",
+        "https://schedule.cqu.moe",
+        "https://feed.cqu.moe",
+        "https://quicklogin.cqu.moe",
+        "https://github.com/cqu-moe/learning",
+        "https://github.com/cqu-moe/design",
+        "https://github.com/cqu-moe"
+      ]
+    },
+    {
+      "theme": "light",
+      "width": 1440,
+      "overflow": false,
+      "loaded": true,
+      "visibleBrands": [
+        "/brand/cqu-moe/logo-black.svg",
+        "/brand/auth/logo-black.svg",
+        "/brand/schedule/logo-black.svg",
+        "/brand/feed/logo-black.svg",
+        "/brand/quicklogin/logo.svg",
+        "/brand/learning/logo-black.svg"
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "https://auth.cqu.moe",
+        "https://schedule.cqu.moe",
+        "https://feed.cqu.moe",
+        "https://quicklogin.cqu.moe",
+        "https://github.com/cqu-moe/learning",
+        "https://github.com/cqu-moe/design",
+        "https://github.com/cqu-moe"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "overflow": false,
+      "loaded": true,
+      "visibleBrands": [
+        "/brand/cqu-moe/logo-white.svg",
+        "/brand/schedule/logo-white.svg",
+        "/brand/feed/logo-white.svg",
+        "/brand/quicklogin/logo-dark.svg",
+        "/brand/learning/logo-white.svg"
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "https://auth.cqu.moe",
+        "https://schedule.cqu.moe",
+        "https://feed.cqu.moe",
+        "https://quicklogin.cqu.moe",
+        "https://github.com/cqu-moe/learning",
+        "https://github.com/cqu-moe/design",
+        "https://github.com/cqu-moe"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "overflow": false,
+      "loaded": true,
+      "visibleBrands": [
+        "/brand/cqu-moe/logo-white.svg",
+        "/brand/auth/logo-white.svg",
+        "/brand/schedule/logo-white.svg",
+        "/brand/feed/logo-white.svg",
+        "/brand/quicklogin/logo-dark.svg",
+        "/brand/learning/logo-white.svg"
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "https://auth.cqu.moe",
+        "https://schedule.cqu.moe",
+        "https://feed.cqu.moe",
+        "https://quicklogin.cqu.moe",
+        "https://github.com/cqu-moe/learning",
+        "https://github.com/cqu-moe/design",
+        "https://github.com/cqu-moe"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 768,
+      "overflow": false,
+      "loaded": true,
+      "visibleBrands": [
+        "/brand/cqu-moe/logo-white.svg",
+        "/brand/auth/logo-white.svg",
+        "/brand/schedule/logo-white.svg",
+        "/brand/feed/logo-white.svg",
+        "/brand/quicklogin/logo-dark.svg",
+        "/brand/learning/logo-white.svg"
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "https://auth.cqu.moe",
+        "https://schedule.cqu.moe",
+        "https://feed.cqu.moe",
+        "https://quicklogin.cqu.moe",
+        "https://github.com/cqu-moe/learning",
+        "https://github.com/cqu-moe/design",
+        "https://github.com/cqu-moe"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "overflow": false,
+      "loaded": true,
+      "visibleBrands": [
+        "/brand/cqu-moe/logo-white.svg",
+        "/brand/auth/logo-white.svg",
+        "/brand/schedule/logo-white.svg",
+        "/brand/feed/logo-white.svg",
+        "/brand/quicklogin/logo-dark.svg",
+        "/brand/learning/logo-white.svg"
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "https://auth.cqu.moe",
+        "https://schedule.cqu.moe",
+        "https://feed.cqu.moe",
+        "https://quicklogin.cqu.moe",
+        "https://github.com/cqu-moe/learning",
+        "https://github.com/cqu-moe/design",
+        "https://github.com/cqu-moe"
+      ]
+    },
+    {
+      "noScript": {
+        "heading": "上课、看通知。从这里开始。",
+        "links": [
+          "#main-content",
+          "/",
+          "https://auth.cqu.moe",
+          "https://schedule.cqu.moe",
+          "https://feed.cqu.moe",
+          "https://quicklogin.cqu.moe",
+          "https://github.com/cqu-moe/learning",
+          "https://github.com/cqu-moe/design",
+          "https://github.com/cqu-moe"
+        ],
+        "images": true
+      }
+    }
+  ],
+  "touch": [
+    {
+      "name": "CQUMoe.",
+      "width": 130.25,
+      "height": 44
+    },
+    {
+      "name": "账号中心",
+      "width": 136,
+      "height": 44
+    },
+    {
+      "name": "外观设置",
+      "width": 44,
+      "height": 44
+    },
+    {
+      "name": "打开课表",
+      "width": 104,
+      "height": 44
+    },
+    {
+      "name": "查看通知",
+      "width": 106,
+      "height": 44
+    },
+    {
+      "name": "了解插件",
+      "width": 80,
+      "height": 44
+    },
+    {
+      "name": "查看项目",
+      "width": 80,
+      "height": 44
+    },
+    {
+      "name": "设计系统",
+      "width": 72,
+      "height": 44
+    },
+    {
+      "name": "GitHub",
+      "width": 63.5625,
+      "height": 44
+    }
+  ],
+  "focus": {
+    "label": "CQU Moe 首页",
+    "outline": "solid"
+  },
+  "notFound": {
+    "heading": "这个页面不存在。",
+    "homeMark": true
+  }
+}

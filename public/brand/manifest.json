@@ -12,14 +12,14 @@
       "sha256": "09cd3eb9a24593853576f1a35329c906b9aedd617e7f27926afc30815e26758d"
     },
     {
-      "file": "feed/logo-black.svg",
-      "source": "assets/brand/path-family/feed/logo-black.svg",
-      "sha256": "f8951f726ec93b93232bf646bca516a098fc086a26e7555a68192bd2f23a07f5"
+      "file": "auth/logo-black.svg",
+      "source": "assets/brand/path-family/auth/logo-black.svg",
+      "sha256": "d5b00dd748670cce7333dd696e81583dd51ac08cc3d7b27d1e803d9d5b561aed"
     },
     {
-      "file": "feed/logo-white.svg",
-      "source": "assets/brand/path-family/feed/logo-white.svg",
-      "sha256": "94b6143e8edad123fe20a3b30ca14a294c5c0b228c208a27c14f51f9a5a896d5"
+      "file": "auth/logo-white.svg",
+      "source": "assets/brand/path-family/auth/logo-white.svg",
+      "sha256": "00b79f15809c0a6a735473a1f905c03731d38354b5ecd7716db16e0bf5e0b3fc"
     },
     {
       "file": "quicklogin/logo.svg",
@@ -32,14 +32,49 @@
       "sha256": "b87479f91e6b6e263d646b7435a5d0ec86261b27cf492e8e3c2e0ef53b99ee81"
     },
     {
-      "file": "auth/logo-black.svg",
-      "source": "assets/brand/path-family/auth/logo-black.svg",
-      "sha256": "d5b00dd748670cce7333dd696e81583dd51ac08cc3d7b27d1e803d9d5b561aed"
+      "file": "feed/logo-black.svg",
+      "source": "assets/brand/path-family/feed/logo-black.svg",
+      "sha256": "f8951f726ec93b93232bf646bca516a098fc086a26e7555a68192bd2f23a07f5"
     },
     {
-      "file": "auth/logo-white.svg",
-      "source": "assets/brand/path-family/auth/logo-white.svg",
-      "sha256": "00b79f15809c0a6a735473a1f905c03731d38354b5ecd7716db16e0bf5e0b3fc"
+      "file": "feed/logo-white.svg",
+      "source": "assets/brand/path-family/feed/logo-white.svg",
+      "sha256": "94b6143e8edad123fe20a3b30ca14a294c5c0b228c208a27c14f51f9a5a896d5"
+    },
+    {
+      "file": "learning/logo-black.svg",
+      "source": "assets/brand/path-family/learning/logo-black.svg",
+      "sha256": "e0aba02698939ac809237fe94563e3af04c03ec4b90db0c7c03d6ab62c5b711f"
+    },
+    {
+      "file": "learning/logo-white.svg",
+      "source": "assets/brand/path-family/learning/logo-white.svg",
+      "sha256": "82992cfdfd3598b74d93f25b0e127dcfb3eefb103113ac05e7721496bdfea772"
+    },
+    {
+      "file": "cqu-moe/logo-black.svg",
+      "source": "assets/brand/path-family/cqu-moe/logo-black.svg",
+      "sha256": "6f7662745cc5688efd43bcb61e2051146f0bfcd364037c36de25af471ff255c7"
+    },
+    {
+      "file": "cqu-moe/logo-white.svg",
+      "source": "assets/brand/path-family/cqu-moe/logo-white.svg",
+      "sha256": "8faa3126fb663210db3742a3b74554747c612f638fa7f39cdba7326869479ed2"
+    },
+    {
+      "file": "../favicon.svg",
+      "source": "assets/brand/path-family/cqu-moe/favicon.svg",
+      "sha256": "ef4f6835c23920ceee0c6d8e61763a499f875157722f831569cc254d84038a50"
+    },
+    {
+      "file": "../favicon.ico",
+      "source": "assets/brand/path-family/cqu-moe/favicon.ico",
+      "sha256": "6ad1a9565db7872d75ce5b8e2a53392d9879f20acb78acc3dd4268410acca4b3"
+    },
+    {
+      "file": "../apple-touch-icon.png",
+      "source": "assets/brand/path-family/cqu-moe/icon-192.png",
+      "sha256": "ebaa6bb858a97f28dc3966797f827a260936b3a65ad6a7d3bce826c4873a424d"
     }
   ]
 }
