@@ -64,3 +64,9 @@
 ## 正式实现
 
 页面已迁入仓库根目录，原型目录和选择器已移除。正文在构建时生成静态 HTML，仅主题菜单在客户端挂载；遵守共享 ThemeProvider 的客户端边界。构建产物含 SEO 元信息、robots、sitemap、自定义 404 与响应头。favicon 使用现有 CQU 文字品牌，不借用某一子系统标识。
+
+## 品牌更新 · 2026-10-16
+
+用户确认新增标识并要求同步主站：CQU Moe 使用 A 版折叠立方，Learning CLI 使用书页与命令提示符。此决定替代前文的文字 favicon 和 Learning CLI 文字占位方案。
+
+顶栏首页链接与 Learning CLI 服务入口均使用设计仓库原始黑白 SVG，按实际 `data-theme` 切换；根 favicon 使用紫色立方与深底适配，另提供 ICO 回退和触屏书签图标。所有来源与 SHA-256 由设计仓库 `pnpm brand:sync cqu-moe <repo-root>` 写入 `public/brand/manifest.json`，以 `pnpm brand:check cqu-moe <repo-root>` 复核。服务 URL、内测标识、无需脚本的导航与静态输出均保留。

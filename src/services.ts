@@ -1,4 +1,4 @@
-export type ServiceBrand = 'schedule' | 'feed' | 'quicklogin';
+export type ServiceBrand = 'schedule' | 'feed' | 'quicklogin' | 'learning';
 
 export interface Service {
   id: string;
@@ -39,6 +39,6 @@ export const tools: Service[] = [
     id: 'learning', name: 'Learning CLI', english: 'Learning CLI',
     description: '用命令行访问雨课堂、学堂在线与智慧树。',
     url: 'https://github.com/cqu-moe/learning', domain: 'github.com/cqu-moe/learning',
-    category: '命令行工具', beta: true, action: '查看项目', brand: null,
+    category: '命令行工具', beta: true, action: '查看项目', brand: 'learning',
   },
 ];
